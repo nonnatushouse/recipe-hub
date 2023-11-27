@@ -17,7 +17,6 @@ export default function Home({recipes}) {
     return(
         <div className="home-container">
             <div className="title">Find ingredients</div>
-            
 
             <div className="recipe-list">
                 {recipes.map((r) => {

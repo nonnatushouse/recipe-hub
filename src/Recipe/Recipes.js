@@ -24,7 +24,8 @@ export function getRecipes() {
             image: dk,
             ingredients: ["Mixture:", "250g butter", "9dl oats", "1/2tsp salt", "4dl sugar", "2tbs vanilla sugar", "2tsp baking powder", "2 eggs", "1.5dl light syrup", "220g Dumle(TM)", " ----- ", "Topping:", "200g dark chocolate"],
             description: ["'Dumlekaka', aka 'Björn's favourite'.", "Look I'll be honest, this recipe used to exist on a blog but sadly it was taken down, so there is none.",
-        "I just literally mix everything together in a bowl and spread it in a pan. Put in the oven at 200 degrees Celcius for ~30 minutes. Chop dark chocolate and spread on top. Voila!"],
+        "I just literally mix everything together in a bowl and spread it in a pan. Put in the oven at 200 degrees Celcius for ~30 minutes. Chop dark chocolate and spread on top. Voila!",
+    "(One important side note. The dark chocolate topping has a way of melting slightly and getting on people's faces as they eat. So if you have a piece, check for that!) "],
             link: ""
         },        
         {   title: "Kladdkaka",
