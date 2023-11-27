@@ -8,8 +8,10 @@ import IngredientList from "./IngredientList";
 
 export default function Recipe({image, title, ingredients, description, link}) {
 
-
+    
     return(
+        
+
         <div className="recipe-page">
             <NavLink
             to="/"
@@ -28,7 +30,14 @@ export default function Recipe({image, title, ingredients, description, link}) {
                     <IngredientList ingredients={ingredients}></IngredientList>
                     
                 </div>
-                <div className="description">{description}</div>
+
+                
+
+                <div className="description">
+                   
+                {description.map((d) => <div className="d-line">{d}</div>)}
+                </div>
+                {link !== "" ? <a href={link}>Link</a> : <div></div>}
             </div>
         </div>
 

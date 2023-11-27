@@ -35,19 +35,23 @@
 .description {
     min-width: 40vw;
     max-width: 50vw;
-    align-items: flex-start;
+
     margin-left: 2rem;
-    margin-bottom: 3rem;
+
 }
 
+.d-line {
+    align-self: flex-start;
+    margin-bottom: 1rem;
+}
 
 @media screen and (max-width: 800px) {
 
     .description {
         width: 95vw;
-        align-items: flex-start;
-        margin-left: 2rem;
         margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
     }
         
     .recipe-container {

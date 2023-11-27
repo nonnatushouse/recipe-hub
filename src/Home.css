@@ -17,3 +17,7 @@ div {
 .img {
     border-radius: 20px;
 }
+
+.title {
+    margin: 2rem;
+}
