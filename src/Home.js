@@ -16,7 +16,7 @@ export default function Home({recipes}) {
 
     return(
         <div className="home-container">
-            <div className="title">Find ingredients</div>
+            <div className="title">Fika ingredients</div>
 
             <div className="recipe-list">
                 {recipes.map((r) => {
@@ -28,9 +28,8 @@ export default function Home({recipes}) {
                     <img className="img" src={r.image} alt={r.title}></img>
                     </NavLink>
                 })}
-
-
             </div>
+            <div>(Don't laugh, I'm not a photographer. Nor a graphic designer...)</div>
         </div>
     )
 }
