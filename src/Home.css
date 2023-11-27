@@ -1,0 +1,19 @@
+
+
+div {
+    color: black;
+}
+
+.recipe-list {
+    max-width: 50rem;
+
+}
+
+.img-link {
+    padding: 5px;
+
+}
+
+.img {
+    border-radius: 20px;
+}
